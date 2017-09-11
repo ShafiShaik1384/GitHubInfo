@@ -8,7 +8,7 @@ import com.git.service.GitHubService;
 
 @Component
 public class GitHubServiceImpl implements GitHubService {
-	static int level = 2;	//used to mention dynamic level
+	static int level = 3;	//used to mention dynamic level
 
 	@Override
 	public GitAccount[] getFollowers(String id) {
